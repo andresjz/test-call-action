@@ -37,3 +37,4 @@ jobs:
         uses: andresjz/test/.github/actions/cleanup-aws@DEVOPS-6359-2
         with:
           dry_run: true
+          config_file: filter.yml

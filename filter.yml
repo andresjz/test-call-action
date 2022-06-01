@@ -1,0 +1,17 @@
+aws_athena_workgroup:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
+
+aws_autoscaling_group:
+  - tags: 
+      environment: opstftest
+      product: Contrast Platform
+      owner: ops@contrastsecurity.coms
+  - created: 
+      before: 1M
+      after: 2020-01-01
